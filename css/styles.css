@@ -1,0 +1,443 @@
+
+
+body {
+    background-color: black;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* start- header */
+
+header {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+
+}
+
+/* end- header */
+
+/* start- nav design */
+
+nav{
+    display: block;
+    margin: auto;
+    float: center;
+    background-color: black;
+    opacity: 50%;
+    position: sticky;
+    top: 0px;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    nav li {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+
+        
+    }
+
+    nav li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
+
+/* end- nav design */
+
+/* start- main data */
+
+main body header nav{
+margin: 0;
+padding: 0;
+}
+
+
+.hero_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url('../images/bar_image.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.hero_text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.hero_text h6 {
+    padding-top: 10em;
+    margin-bottom: 0;
+}
+
+.hero_glow{
+    background-image: linear-gradient(purple, black, black);
+}
+
+
+    /* start- event calendar */
+    .calendar {
+        width: 75%;
+        margin: auto;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    body {
+        font-family: Verdana, sans-serif;
+    }
+    
+    /* Month header */
+        .month {
+            padding: 25px 0px;
+            width: 100%;
+            background: #272727;
+            text-align: center;
+            
+        }
+    
+    /* Month list */
+        .month ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .month ul li {
+            font-family: sans-serif;
+            color: white;
+            font-size: 60px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    
+    /* Previous button inside month header */
+        .month .prev {
+            float: left;
+            padding-top: 10px;
+        }
+    
+    /* Next button */
+        .month .next {
+            float: right;
+            padding-top: 10px;
+        }
+    
+    /* Weekdays (Mon-Sun) */
+        .weekdays {
+            margin: 0;
+            padding: 10px 0;
+            background-color:#ddd;
+        }
+    
+        .weekdays li {
+            display: inline-block;
+            width: 13%;
+            color: #666;
+            text-align: center;
+        }
+    
+    /* Days (1-31) */
+        .days {
+            padding: 10px 0;
+            background: #eee;
+            margin: 0;
+        }
+        
+        .days li {
+            list-style-type: none;
+            display: inline-block;
+            width: 13%;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size:12px;
+            color: #777;
+        }
+        /* Days with events */
+
+        .days li a {
+            background-color: #272727;
+            text-decoration: none;
+            padding: 5px;
+            background: #272727;
+            color: white !important;
+            border-radius: 10%;
+        }
+
+    /* end- event caledar */
+
+    /* Start- event data */
+
+    .Jackbox_Gamenight {
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(purple,black);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+        .Jackbox_Gamenight h1 {
+            color: #777;
+            background-image: linear-gradient(black, #272727, black);
+        }
+
+        .jackbox_img {
+            text-align: center;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+    
+    .Speed_Dating {
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(purple,black);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+        .Speed_Dating h1 {
+            color: #777 ;
+            background-image: linear-gradient(black, #272727, black);
+        }
+        
+        .Speed_Dating ul {
+            align-items: center;
+            text-align: center;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        .speed_info {
+            text-align: left;
+            padding-top: 2em;
+
+        }
+
+    .Keep_smiling {
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(purple,black);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    }
+        .Keep_smiling h1 {
+            color: #777;
+            background-image: linear-gradient(black, #272727, black);
+        }
+        .Keep_smiling p {
+            text-align: left;
+        }
+        .Keep_smiling a {
+            text-decoration: none;
+            color: #777
+        }
+
+    .Tropical_Dance {
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(purple,black);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    }
+        .Tropical_Dance h1 {
+            color: #777;
+            background-image: linear-gradient(black, #272727, black);
+        }
+
+        .Tropical_Dance p {
+            text-align: left;
+        }
+        
+        .Tropical_Dance a {
+            text-decoration: none;
+            color: #777;
+        }
+    /* end- event data */
+
+
+/* end- main data */
+
+/* start- about info */
+
+.age{
+    color: red;
+    display: inline;
+}
+
+.about_info {
+    color: #fff;
+}
+
+    .about_info p {
+        text-align: center;
+        font-family: monospace;
+
+    }
+    .about_info h1 {
+    font-family: sans-serif;  
+    text-align: center;
+    margin-top: 0em;
+    padding-top: 0em;
+    }
+    .about_info h3 {
+        font-style: oblique;
+        color: #eee;
+        background-image: linear-gradient(black, rgb(56, 56, 56), black);
+        padding: .2em;
+    }
+
+/* end- about info */
+
+/* location */
+
+.us19 {
+    color: #777;
+    overflow: hidden;
+    background-image: linear-gradient(purple,black,black);
+
+}
+    .us19 h3 {
+        margin-top: 0;
+        background-image: linear-gradient(black, #272727, black);
+        text-align: center;
+        color: #ddd;
+    }
+
+.ave54th {
+    color: #777;
+    background-image: linear-gradient(purple,black,black);
+
+}
+
+    .ave54th h3 {
+        background-image: linear-gradient(black, #272727, black);
+        text-align: center;
+        color: #ddd;
+    }
+
+.st4th {
+    color: #777;
+    background-image: linear-gradient(purple,black,black);
+
+
+}
+
+    .st4th h3 {
+        background-image: linear-gradient(black, #272727, black);
+        text-align: center;
+        color: #ddd;
+    }
+
+
+/* location */
+
+/* contact-info */
+
+.contact_locations {
+    color: #777;
+
+}
+
+.contact_locations li {
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.contact_locations h3 {
+    background-image: linear-gradient(black, #272727, black);
+    color: #c4c4c4;
+}
+
+.contact_locations p {
+    color: #ddd;
+    font-size: small;
+}
+
+/* contact-info */
+
+/* start- menu */
+
+.menu_img {
+    text-align: center;
+}
+
+/* end- menu */
+
+/* start- footer data */
+
+footer{
+    border-top: #5c5c5c 2px solid;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: #5c5c5c;
+
+}
+    footer h5 {
+        margin: 0;
+    }
+
+    footer h6 {
+        margin: 0;
+    }
+
+    .locations {
+        display: inline-block;
+        text-align: center;
+        color: #5c5c5c;
+        list-style-type: none;
+
+    }
+
+    .locations iframe {
+        border: #272727 10px;
+
+    }
+
+    footer ul {
+
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+
+    
+    }
+
+    footer li {
+        display: inline-block;
+
+    }
+
+    footer li a {
+        text-align: center;
+        padding: 0.5em 1em;
+        text-decoration: none;
+
+
+    }
+
+
+/* end- footer data */
